@@ -1,0 +1,50 @@
+/**************** HEADER  STAYLE START *************/
+.site-header {
+  padding: 25px 0;
+  background-color: var(--main-bg-color);
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__pic {
+  display: inline-block;
+}
+.site-header__end {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  margin-right: 172px;
+}
+.site-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.site-nav__item--link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+}
+.site-nav__item--link:active {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--btn-bg-color);
+  }
+.site-main__btn {
+  padding: 14px 50px 13px 50px;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+  background-color: #D23166;
+  border-radius: 5px;
+  border: none;
+}
+/**************** HEADER  STAYLE  END *************/

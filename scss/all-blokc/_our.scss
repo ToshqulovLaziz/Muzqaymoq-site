@@ -1,0 +1,122 @@
+/**************** OUR  STAYLE START *************/
+.our-section {
+  padding-top: 137px;
+  padding-bottom: 149px;
+  background-color: var(--footer-text-color);
+}
+.our-section__title {
+  margin: 0;
+  padding-bottom: 64px;
+  font-family: 'Hind Madurai';
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  text-align: center;
+  color: #150101;
+}
+.our-section__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.our-section__item--link {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-text-color);
+}
+.our-section__item--link:hover:active {
+  color: var(--main-subtitle-color);
+  border-bottom: 3px solid #D64374;
+}
+.our-section__bread {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.our-section__bread--subtitle {
+  margin: 0;
+  padding-bottom: 11px;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--main-subtitle-color);
+}
+.our-section__bread--text {
+  width: 100%;
+  max-width: 454px;
+  margin: 0;
+  padding-bottom: 28px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+.our-section__bread--number {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--main-subtitle-color);
+}
+.our-section__bread--desc {
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: line-through;
+  color: var(--main-text-color);
+}
+.our-section__about--top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+.about-wrap {
+  padding-left: 21px;
+}
+.about-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--main-subtitle-color);
+}
+.about-davlat {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--main-text-color);
+}
+.our-section__about--text {
+  width: 100%;
+  max-width: 362px;
+  margin: 0;
+  padding-bottom: 39px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+.text-end {
+  text-align: end;
+}
+.belgi-top {
+  padding-bottom: 6px;
+}
+.belgi-foot {
+  padding-top: 6px;
+}
+.our-section__about--footer {
+  width: 100%;
+  max-width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/**************** OUR  STAYLE END *************/

@@ -1,8 +1,10 @@
 :root {
   --main-subtitle-color: #000;
-  --main-bg-color:#F8EDF0;
+  --main-bg-color: #F8EDF0;
+  --main-text-color: #635d5d;
   --footer-text-color: #fff;
-  --btn-bg-color:#D64374;
+  --btn-text-color: #FAFAFA;
+  --btn-bg-color: #D23166;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -420,6 +422,493 @@ a {
   text-decoration: none;
 }
 
+/**************** HEADER  STAYLE START *************/
+.site-header {
+  padding: 25px 0;
+  background-color: var(--main-bg-color);
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__pic {
+  display: inline-block;
+}
+
+.site-header__end {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  margin-right: 172px;
+}
+
+.site-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.site-nav__item--link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+}
+
+.site-nav__item--link:active {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--btn-bg-color);
+}
+
+.site-main__btn {
+  padding: 14px 50px 13px 50px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+  background-color: #D23166;
+  border-radius: 5px;
+  border: none;
+}
+
+/**************** HEADER  STAYLE  END *************/
 .main {
   flex-grow: 1;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/**************** HERO  STAYLE START *************/
+.hero-section {
+  position: relative;
+  padding-top: 196px;
+  padding-bottom: 213px;
+  background-color: var(--main-bg-color);
+}
+
+.hero-section__text {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+}
+
+.hero-section__title {
+  width: 100%;
+  max-width: 665px;
+  margin: 0;
+  padding-bottom: 35px;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0F0101;
+}
+
+.hero-section__span {
+  color: var(--btn-bg-color);
+}
+
+.hero-section__desc {
+  width: 100%;
+  max-width: 523px;
+  margin: 0;
+  padding-bottom: 50px;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--main-text-color);
+}
+
+.hero-section__start::after {
+  position: absolute;
+  width: 597px;
+  height: 650px;
+  right: 17%;
+  bottom: 8%;
+  background-image: url("../../imags/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero-section__start::after {
+    content: url("../../images/bg-image@2x.png");
+  }
+}
+/**************** HERO  STAYLE END *************/
+/**************** SERVICE  STAYLE START *************/
+.services-section {
+  padding: 100px 0;
+  background-color: var(--footer-text-color);
+}
+
+.service-section__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-section__item {
+  position: relative;
+  padding: 100px 26px 28px 26px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.031372549);
+  border-radius: 7px;
+}
+
+.service-section__item:hover {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.031372549);
+}
+
+.service-section__subtitle {
+  margin: 0;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--main-subtitle-color);
+}
+
+.service-section__subtitle::before {
+  position: absolute;
+  width: 51px;
+  height: 43px;
+  right: 38%;
+  top: 15%;
+  background-image: url("../../imags/icons/car.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.Packaging::before {
+  width: 32px;
+  height: 42px;
+  right: 41%;
+  top: 15%;
+  background-image: url("../../imags/icons/stakan.svg");
+}
+
+.money::before {
+  width: 44px;
+  height: 44px;
+  right: 40%;
+  background-image: url("../../imags/icons/cash-back.svg");
+}
+
+.fast-delivery::before {
+  background-image: url("../../imags/icons/fast-delivery.svg");
+}
+
+.service-section__text {
+  width: 100%;
+  max-width: 198px;
+  font-family: "Hind Madurai";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+/**************** SERVICE  STAYLE END *************/
+/**************** BROWN  STAYLE START *************/
+.brown-section {
+  position: relative;
+  padding-top: 141px;
+  padding-bottom: 146px;
+  background-color: var(--main-bg-color);
+}
+
+.brown-section__start::after {
+  position: absolute;
+  width: 570px;
+  height: 570px;
+  right: 10%;
+  bottom: 4%;
+  background-image: url("../../imags/brown-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .brown-section__start::after {
+    content: url("../../images/brown-bg@2x.png");
+  }
+}
+.brown-section__title {
+  width: 100%;
+  max-width: 349px;
+  margin: 0;
+  padding-bottom: 16px;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.brown-section__text {
+  width: 100%;
+  max-width: 442px;
+  margin: 0;
+  padding-bottom: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+
+/**************** BROWN  STAYLE END *************/
+/**************** OUR  STAYLE START *************/
+.our-section {
+  padding-top: 137px;
+  padding-bottom: 149px;
+  background-color: var(--footer-text-color);
+}
+
+.our-section__title {
+  margin: 0;
+  padding-bottom: 64px;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  text-align: center;
+  color: #150101;
+}
+
+.our-section__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.our-section__item--link {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-text-color);
+}
+
+.our-section__item--link:hover:active {
+  color: var(--main-subtitle-color);
+  border-bottom: 3px solid #D64374;
+}
+
+.our-section__bread {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.our-section__bread--subtitle {
+  margin: 0;
+  padding-bottom: 11px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--main-subtitle-color);
+}
+
+.our-section__bread--text {
+  width: 100%;
+  max-width: 454px;
+  margin: 0;
+  padding-bottom: 28px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+
+.our-section__bread--number {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Hind Madurai";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: var(--main-subtitle-color);
+}
+
+.our-section__bread--desc {
+  font-family: "Hind Madurai";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: var(--main-text-color);
+}
+
+.our-section__about--top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.about-wrap {
+  padding-left: 21px;
+}
+
+.about-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--main-subtitle-color);
+}
+
+.about-davlat {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--main-text-color);
+}
+
+.our-section__about--text {
+  width: 100%;
+  max-width: 362px;
+  margin: 0;
+  padding-bottom: 39px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+
+.text-end {
+  text-align: end;
+}
+
+.belgi-top {
+  padding-bottom: 6px;
+}
+
+.belgi-foot {
+  padding-top: 6px;
+}
+
+.our-section__about--footer {
+  width: 100%;
+  max-width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/**************** OUR  STAYLE END *************/
+/**************** SIMPLE STAYLE START *************/
+.simple-section {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 248px;
+  background-color: var(--main-bg-color);
+}
+
+.simple-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple-section__pic {
+  position: absolute;
+  bottom: -5%;
+}
+
+.simple-section__end {
+  position: relative;
+}
+
+.simple-section__title {
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  color: var(--main-subtitle-color);
+}
+
+.simple-section__text {
+  width: 100%;
+  max-width: 607px;
+  margin: 0;
+  padding-bottom: 29px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+}
+
+.simple-section__desc {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--main-subtitle-color);
+}
+
+.fon {
+  margin-right: 10px;
+}
+
+.simple-section__desc::before {
+  position: absolute;
+  width: 11px;
+  height: 16px;
+  left: 1.3%;
+  top: 54.3%;
+  background-image: url("../../imags/icons/selcet.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.simple-section__desc::after {
+  position: absolute;
+  width: 11px;
+  height: 16px;
+  left: 1.3%;
+  top: 70.3%;
+  background-image: url("../../imags/icons/cart.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.order::after {
+  left: 1.5%;
+  top: 86.3%;
+  background-image: url("../../imags/icons/order.svg");
+}
+
+.google-play {
+  position: absolute;
+  left: -2%;
+}
+
+.simple-section__img {
+  position: absolute;
+  left: 33%;
+  bottom: -26.5%;
+}
+
+/**************** SIMPLE STAYLE END *************//*# sourceMappingURL=main.css.map */

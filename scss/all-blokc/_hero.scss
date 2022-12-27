@@ -1,0 +1,58 @@
+/**************** HERO  STAYLE START *************/
+.hero-section {
+  position: relative;
+  padding-top: 196px;
+  padding-bottom: 213px;
+  background-color: var(--main-bg-color);
+}
+.hero-section__text {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+}
+.hero-section__title {
+  width: 100%;
+  max-width: 665px;
+  margin: 0;
+  padding-bottom: 35px;
+  font-family: 'Fredoka One';
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0F0101;
+}
+.hero-section__span {
+  color: var(--btn-bg-color);
+}
+.hero-section__desc {
+  width: 100%;
+  max-width: 523px;
+  margin: 0;
+  padding-bottom: 50px;
+  font-family: 'Hind Madurai';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--main-text-color);
+}
+.hero-section__start::after {
+  position: absolute;
+  width: 597px;
+  height: 650px;
+  right: calc(17%);
+  bottom: calc(8%);
+  background-image: url("../../imags/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero-section__start::after {
+    content: url("../../images/bg-image@2x.png");
+  }
+}
+/**************** HERO  STAYLE END *************/
