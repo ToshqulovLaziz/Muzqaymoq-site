@@ -379,19 +379,22 @@
         <form class="question-section__form" action="https://echo.htmlacademy.ru">
           <input class="question-section__number"
           type="text" 
-          placeholder="Your-phone-number" 
+          placeholder="Your phone number" 
           name="Your-phone-number"
-          id="Your-phone-number">
-          <input class="question-section__number" 
-          type="text" 
-          placeholder="Question-type" 
-          name="Question-type"
-          id="Question-type">
+          id="Your-phone-number"
+          required>
+          <select class="question-section__number" name="format" id="format" required>
+            <option selected disabled>Question type</option>
+            <option value="text">Question 1</option>
+            <option value="text">Question 2</option>
+            <option value="text">Question 3</option>
+          </select>
           <input  class="question-section__question"
           type="text" 
-          placeholder="Enter-your-question"
+          placeholder="Enter your question"
           name="Enter-your-question"
-          id="Enter-your-question">
+          id="Enter-your-question"
+          required>
           <button class="question-section__btn" type="submit">Send</button>
         </form>
       </div>
@@ -414,18 +417,26 @@
             Fllow Us
           </p>
           <div class="site-footer__network">
-            <img class="site-footer__start--img" 
+            <a href="https://www.facebook.com/" target="_blank">
+              <img class="site-footer__start--img" 
                   src="./imags/icons/facebook.svg" 
                   alt="facebook">
-            <img class="site-footer__start--img" 
+            </a>
+            <a href="https://twitter.com/?lang=ru" target="_blank">
+              <img class="site-footer__start--img" 
                   src="./imags/icons/twitter.svg" 
                   alt="twitter">
-            <img class="site-footer__start--img" 
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="site-footer__start--img" 
                   src="./imags/icons/instagram.svg" 
                   alt="instagram">
-            <img class="site-footer__start--img" 
+            </a>
+            <a href="https://ru.linkedin.com/" target="_blank">
+              <img class="site-footer__start--img" 
                   src="./imags/icons/linkedin.svg" 
                   alt="linkedin">
+            </a>
           </div>
         </div>
         <ul class="site-footer__list">
