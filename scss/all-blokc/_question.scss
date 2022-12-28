@@ -1,0 +1,98 @@
+/**************** QUESTION STAYLE START *************/
+.question-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 71px;
+  background-color: var(--footer-text-color);
+}
+.container-question {
+  width: 100%;
+    max-width: 667px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.question-section__title {
+  width: 100%;
+  max-width: 522px;
+  margin: 0;
+  padding-bottom: 40px;
+  padding-left: 55px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: var(--main-subtitle-color);
+}
+.question-section__form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-section__number {
+  width: 100%;
+  max-width: 303px;
+  height: 74px;
+  margin: 0;  
+  margin-bottom: 37px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background: #fff;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px;
+}
+.question-section__question {
+  width: 100%;
+  max-width: 533px;
+  height: 74px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background: #fff;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px;
+}
+.question-section__btn {
+  position: absolute;
+  right: calc(0%);
+  bottom: calc(-0.4%);
+  padding: 26px 46px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  border: none;
+  background-color: #D64374;
+  border-radius: 5px;
+}
+.question-section__title::after {
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  left: calc(68.3%);
+  top: calc(60.3%);
+  background-image: url("../../imags/icons/Polygon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  z-index: 9999;
+}
+
+/**************** QUESTION-MOBILE STAYLE START *************/
+@media (max-width:1490px) {
+  .question-section__title::after {
+    display: none;
+  }
+}
+@media (max-width:1490px) {
+  .question-section__title {
+    font-size: 36px;
+  }
+}
+
+/**************** QUESTION-MOBILE STAYLE END *************/
+/**************** QUESTION STAYLE END *************/

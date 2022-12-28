@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Polar-eng mazali muzqaymoqlar bizda!</title>
 </head>
 <body>
@@ -41,6 +41,13 @@
               </li>
             </ul>
           </nav>
+          <div class="burger">
+            <svg width="20" height="17" viewBox="0 0 20 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <rect width="20" height="3" fill="currentColor"/>
+              <rect y="7" width="20" height="3" fill="currentColor"/>
+              <rect y="14" width="20" height="3" fill="currentColor"/>
+            </svg>
+          </div>
           <button class="site-main__btn" type="button">
             Buy Now
           </button>
@@ -177,30 +184,57 @@
           </div>
         </div>
         <div class="our-section__bread">
-          <div class="our-section__bread--end  text-end">
-            <h3 class="our-section__bread--subtitle">
-              Cayenne chocolate
-            </h3>
-            <p class="our-section__bread--text">
-              Bon Au Pain is a pioneer in the 
-              healthy fast food scene.Bon Au Pain is a pioneer in 
-              the healthy fast food scene.
-              Bon Au Pain is a pioneer in the healthy fast food scene.
-            </p>
-            <p class="our-section__bread--number">
-              $19.55 <span class="our-section__bread--desc">$22.55</span>
-            </p>
-            <button class="site-main__btn" type="button">
-              Buy Now
-            </button>
-          </div>
-          <div class="our-section__bread--start">
-            <img class="our-section__bread--pic" 
-            src="./imags/our-bg1.jpg"
-            srcset="./imags/our-bg1.jpg 1x, ./imags/our-bg1@2x.jpg 2x" 
-            alt="Limon"
-            width="580"
-            height="415">
+            <div class="our-section__bread--end not-mobile  text-end">
+              <h3 class="our-section__bread--subtitle">
+                Cayenne chocolate
+              </h3>
+              <p class="our-section__bread--text">
+                Bon Au Pain is a pioneer in the 
+                healthy fast food scene.Bon Au Pain is a pioneer in 
+                the healthy fast food scene.
+                Bon Au Pain is a pioneer in the healthy fast food scene.
+              </p>
+              <p class="our-section__bread--number">
+                $19.55 <span class="our-section__bread--desc">$22.55</span>
+              </p>
+              <button class="site-main__btn" type="button">
+                Buy Now
+              </button>
+            </div>
+            <div class="our-section__bread--start  not-mobile">
+              <img class="our-section__bread--pic" 
+              src="./imags/our-bg1.jpg"
+              srcset="./imags/our-bg1.jpg 1x, ./imags/our-bg1@2x.jpg 2x" 
+              alt="Limon"
+              width="580"
+              height="415">
+            </div>
+          <div class="mobile-start">
+            <div class="our-section__bread--start">
+              <img class="our-section__bread--pic" 
+              src="./imags/our-bg1.jpg"
+              srcset="./imags/our-bg1.jpg 1x, ./imags/our-bg1@2x.jpg 2x" 
+              alt="Limon"
+              width="580"
+              height="415">
+            </div>
+            <div class="our-section__bread--end  text-end">
+              <h3 class="our-section__bread--subtitle">
+                Cayenne chocolate
+              </h3>
+              <p class="our-section__bread--text">
+                Bon Au Pain is a pioneer in the 
+                healthy fast food scene.Bon Au Pain is a pioneer in 
+                the healthy fast food scene.
+                Bon Au Pain is a pioneer in the healthy fast food scene.
+              </p>
+              <p class="our-section__bread--number">
+                $19.55 <span class="our-section__bread--desc">$22.55</span>
+              </p>
+              <button class="site-main__btn" type="button">
+                Buy Now
+              </button>
+            </div>
           </div>
         </div>
         <div class="our-section__bread">
@@ -337,12 +371,124 @@
         </div>
       </div>
     </section>
-    
+    <section class="question-section">
+      <div class="container-question">
+        <h2 class="question-section__title">
+          Have Question in Mind? Let us help you
+        </h2>
+        <form class="question-section__form" action="https://echo.htmlacademy.ru">
+          <input class="question-section__number"
+          type="text" 
+          placeholder="Your-phone-number" 
+          name="Your-phone-number"
+          id="Your-phone-number">
+          <input class="question-section__number" 
+          type="text" 
+          placeholder="Question-type" 
+          name="Question-type"
+          id="Question-type">
+          <input  class="question-section__question"
+          type="text" 
+          placeholder="Enter-your-question"
+          name="Enter-your-question"
+          id="Enter-your-question">
+          <button class="question-section__btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
   </main>
   <!-- MAIN END-->
   
   <!-- FOOTER START -->
-  <footer></footer>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__wrapper">
+        <div class="site-footer__start">
+          <a class="site-header__logo-footer" href="./index.html">
+            <img  class="logo-footer" src="./imags/logo-foot.svg" alt="logo">
+          </a>
+          <p class="site-footer__text">
+            Some food has looked so awful that it's looked like something that the dog's brought home.
+          </p>
+          <p class="site-footer__flow">
+            Fllow Us
+          </p>
+          <div class="site-footer__network">
+            <img class="site-footer__start--img" 
+                  src="./imags/icons/facebook.svg" 
+                  alt="facebook">
+            <img class="site-footer__start--img" 
+                  src="./imags/icons/twitter.svg" 
+                  alt="twitter">
+            <img class="site-footer__start--img" 
+                  src="./imags/icons/instagram.svg" 
+                  alt="instagram">
+            <img class="site-footer__start--img" 
+                  src="./imags/icons/linkedin.svg" 
+                  alt="linkedin">
+          </div>
+        </div>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Home</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Product</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Blog</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Pricing</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Testimonials</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="site-footer__list one">
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Delivery Information</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Privacy Policy</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Terms & Condition</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Search Terms</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__item--link" href="#">Order & Return</a>
+          </li>
+        </ul>
+        <div class="site-footer__end">
+          <p class="site-footer__end--text">Newsletter</p>
+          <form class="question-section__form footer-form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="question__form-bottom">
+              <input class="enter-your__input" type="text" name="enter-your__input"
+              placeholder="Your Email">
+              <button class="send-submit" type="submit">Subscribe</button>
+            </div>
+          </form>
+          <div class="site-footer__end--imgs">
+            <a class="site-footer__end--link" href="#">
+              <img class="site-footer__end--pic" src="./imags/icons/paypel.svg" alt="Payple">
+            </a>
+            <a class="site-footer__end--link" href="#">
+              <img class="site-footer__end--pic" src="./imags/icons/mascard.svg" alt="Master card">
+            </a>
+            <a class="site-footer__end--link" href="#">
+              <img class="site-footer__end--pic" src="./imags/icons/visa.svg" alt="Visa">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- FOOTER END -->
 </body>
 </html>

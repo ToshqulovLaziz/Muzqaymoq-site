@@ -64,4 +64,16 @@
   text-align: center;
   color: var(--main-text-color);
 }
+/**************** SERVICE-MOBILE  STAYLE START *************/
+@media (max-width:895px) {
+  .service-section__list {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:895px) {
+  .service-section__list {
+    flex-direction: column;
+  }
+}
+/**************** SERVICE-MOBILE  STAYLE END *************/
 /**************** SERVICE  STAYLE END *************/

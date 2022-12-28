@@ -41,4 +41,73 @@
   line-height: 24px;
   color: var(--main-text-color);
 }
+
+
+/**************** BROWN-MOBILE  STAYLE START *************/
+@media (max-width:1026px) {
+  .brown-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  .brown-section__start::after {
+    display: none;
+  }
+  .brown-section__text {
+    margin-left: 280px;
+  }
+  .brown-section__title  {
+    margin-left: 320px;
+  }
+  .brown-section .site-main__btn {
+  }
+}
+@media (max-width:990px) {
+  .brown-section__text {
+    margin-left: 240px;
+  }
+  .brown-section__title  {
+    margin-left: 270px;
+  }
+}
+@media (max-width:870px) {
+  .brown-section__text {
+    margin-left: 200px;
+  }
+  .brown-section__title  {
+    margin-left: 220px;
+  }
+}
+@media (max-width:720px) {
+  .brown-section__text {
+    margin-left: 140px;
+  }
+  .brown-section__title  {
+    margin-left: 150px;
+  }
+}
+@media (max-width:640px) {
+  .brown-section__text {
+    margin-left: 80px;
+  }
+  .brown-section__title  {
+    margin-left: 90px;
+  }
+}
+@media (max-width:545px) {
+  .brown-section__text {
+    margin-left: 40px;
+  }
+  .brown-section__title  {
+    margin-left: 50px;
+  }
+}
+@media (max-width:510px) {
+  .brown-section__text {
+    margin-left: 0px;
+  }
+  .brown-section__title  {
+    margin-left: 0px;
+  }
+}
+/**************** BROWN-MOBILE  STAYLE END *************/
 /**************** BROWN  STAYLE END *************/

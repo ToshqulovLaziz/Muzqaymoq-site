@@ -55,4 +55,68 @@
     content: url("../../images/bg-image@2x.png");
   }
 }
+
+
+/**************** HERO-MOBILE  STAYLE START *************/
+@media (max-width:1395px) {
+  .hero-section__start::after {
+    width: 550px;
+    height: 600px;
+  }
+  
+}
+@media (max-width:1315px) {
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .hero-section__title , .hero-section__desc {
+    display: inline-block;
+  }
+  .hero-section .site-main__btn {
+    position: absolute;
+    left: calc(43%);
+    display: block;
+  }
+  .hero-section__start::after {
+    display: none;
+  }
+}
+@media (max-width:1090px) {
+  .hero-section .site-main__btn {
+    left: calc(40%);
+  }
+}
+@media (max-width:744px) {
+  .hero-section .site-main__btn {
+    left: calc(38%);
+  }
+}
+@media (max-width:692px) {
+  .hero-section__title {
+    font-size: 48px;
+  }
+}
+@media (max-width:585px) {
+  .hero-section__title {
+    font-size: 36px;
+  }
+  .hero-section .site-main__btn {
+    left: calc(35%);
+  }
+}
+@media (max-width:465px) {
+  .hero-section .site-main__btn {
+    left: calc(30%);
+  }
+}
+@media (max-width:365px) {
+  .hero-section .site-main__btn {
+    left: calc(24%);
+  }
+}
+/**************** HERO-MOBILE  STAYLE END *************/
+
+
 /**************** HERO  STAYLE END *************/

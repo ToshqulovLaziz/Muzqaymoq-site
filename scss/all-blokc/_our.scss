@@ -103,6 +103,9 @@
   line-height: 24px;
   color: var(--main-text-color);
 }
+.mobile-start {
+  display: none;
+}
 .text-end {
   text-align: end;
 }
@@ -119,4 +122,39 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/**************** OUR-MOBILE  STAYLE START *************/
+@media (max-width:765px) {
+  .our-section__list {
+    display: none;
+  }
+  .our-section__bread--subtitle {
+    font-size: 18px;
+  }
+  .our-section__bread--text {
+    font-size: 12px;
+  }
+}
+@media (max-width:598px) {
+  .our-section__bread {
+    flex-direction: column;
+  }
+  .our-section__title {
+    padding-bottom: 25px;
+  }
+  .text-end {
+    text-align: start;
+  }
+  .mobile-start {
+    display: inline-block;
+  }
+  .our-section__bread {
+    padding-bottom: 60px;
+  }
+  .not-mobile {
+    display: none;
+  }
+}
+
+/**************** OUR-MOBILE  STAYLE END *************/
 /**************** OUR  STAYLE END *************/

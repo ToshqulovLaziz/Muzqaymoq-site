@@ -47,4 +47,27 @@
   border-radius: 5px;
   border: none;
 }
+.burger {
+  display: none;
+  color: black;
+}
+
+/***** HEADER-MOBILE START *****/
+@media (max-width:917px) {
+  .site-header .site-main__btn {
+    display: none;
+  }
+  .site-nav {
+    margin-right: 0;
+  }
+}
+@media (max-width:665px) {
+  .burger {
+    display: inline-block;
+  }
+  .site-nav {
+    display: none;
+  }
+}
+/***** HEADER-MOBILE END *****/
 /**************** HEADER  STAYLE  END *************/

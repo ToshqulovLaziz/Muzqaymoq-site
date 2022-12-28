@@ -480,6 +480,29 @@ a {
   border: none;
 }
 
+.burger {
+  display: none;
+  color: black;
+}
+
+/***** HEADER-MOBILE START *****/
+@media (max-width: 917px) {
+  .site-header .site-main__btn {
+    display: none;
+  }
+  .site-nav {
+    margin-right: 0;
+  }
+}
+@media (max-width: 665px) {
+  .burger {
+    display: inline-block;
+  }
+  .site-nav {
+    display: none;
+  }
+}
+/***** HEADER-MOBILE END *****/
 /**************** HEADER  STAYLE  END *************/
 .main {
   flex-grow: 1;
@@ -548,6 +571,65 @@ a {
     content: url("../../images/bg-image@2x.png");
   }
 }
+/**************** HERO-MOBILE  STAYLE START *************/
+@media (max-width: 1395px) {
+  .hero-section__start::after {
+    width: 550px;
+    height: 600px;
+  }
+}
+@media (max-width: 1315px) {
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .hero-section__title, .hero-section__desc {
+    display: inline-block;
+  }
+  .hero-section .site-main__btn {
+    position: absolute;
+    left: 43%;
+    display: block;
+  }
+  .hero-section__start::after {
+    display: none;
+  }
+}
+@media (max-width: 1090px) {
+  .hero-section .site-main__btn {
+    left: 40%;
+  }
+}
+@media (max-width: 744px) {
+  .hero-section .site-main__btn {
+    left: 38%;
+  }
+}
+@media (max-width: 692px) {
+  .hero-section__title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 585px) {
+  .hero-section__title {
+    font-size: 36px;
+  }
+  .hero-section .site-main__btn {
+    left: 35%;
+  }
+}
+@media (max-width: 465px) {
+  .hero-section .site-main__btn {
+    left: 30%;
+  }
+}
+@media (max-width: 365px) {
+  .hero-section .site-main__btn {
+    left: 24%;
+  }
+}
+/**************** HERO-MOBILE  STAYLE END *************/
 /**************** HERO  STAYLE END *************/
 /**************** SERVICE  STAYLE START *************/
 .services-section {
@@ -625,6 +707,18 @@ a {
   color: var(--main-text-color);
 }
 
+/**************** SERVICE-MOBILE  STAYLE START *************/
+@media (max-width: 895px) {
+  .service-section__list {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 895px) {
+  .service-section__list {
+    flex-direction: column;
+  }
+}
+/**************** SERVICE-MOBILE  STAYLE END *************/
 /**************** SERVICE  STAYLE END *************/
 /**************** BROWN  STAYLE START *************/
 .brown-section {
@@ -673,6 +767,71 @@ a {
   color: var(--main-text-color);
 }
 
+/**************** BROWN-MOBILE  STAYLE START *************/
+@media (max-width: 1026px) {
+  .brown-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  .brown-section__start::after {
+    display: none;
+  }
+  .brown-section__text {
+    margin-left: 280px;
+  }
+  .brown-section__title {
+    margin-left: 320px;
+  }
+}
+@media (max-width: 990px) {
+  .brown-section__text {
+    margin-left: 240px;
+  }
+  .brown-section__title {
+    margin-left: 270px;
+  }
+}
+@media (max-width: 870px) {
+  .brown-section__text {
+    margin-left: 200px;
+  }
+  .brown-section__title {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 720px) {
+  .brown-section__text {
+    margin-left: 140px;
+  }
+  .brown-section__title {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 640px) {
+  .brown-section__text {
+    margin-left: 80px;
+  }
+  .brown-section__title {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 545px) {
+  .brown-section__text {
+    margin-left: 40px;
+  }
+  .brown-section__title {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 510px) {
+  .brown-section__text {
+    margin-left: 0px;
+  }
+  .brown-section__title {
+    margin-left: 0px;
+  }
+}
+/**************** BROWN-MOBILE  STAYLE END *************/
 /**************** BROWN  STAYLE END *************/
 /**************** OUR  STAYLE START *************/
 .our-section {
@@ -795,6 +954,10 @@ a {
   color: var(--main-text-color);
 }
 
+.mobile-start {
+  display: none;
+}
+
 .text-end {
   text-align: end;
 }
@@ -815,6 +978,39 @@ a {
   justify-content: space-between;
 }
 
+/**************** OUR-MOBILE  STAYLE START *************/
+@media (max-width: 765px) {
+  .our-section__list {
+    display: none;
+  }
+  .our-section__bread--subtitle {
+    font-size: 18px;
+  }
+  .our-section__bread--text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 598px) {
+  .our-section__bread {
+    flex-direction: column;
+  }
+  .our-section__title {
+    padding-bottom: 25px;
+  }
+  .text-end {
+    text-align: start;
+  }
+  .mobile-start {
+    display: inline-block;
+  }
+  .our-section__bread {
+    padding-bottom: 60px;
+  }
+  .not-mobile {
+    display: none;
+  }
+}
+/**************** OUR-MOBILE  STAYLE END *************/
 /**************** OUR  STAYLE END *************/
 /**************** SIMPLE STAYLE START *************/
 .simple-section {
@@ -832,6 +1028,7 @@ a {
 .simple-section__pic {
   position: absolute;
   bottom: -5%;
+  z-index: 9999;
 }
 
 .simple-section__end {
@@ -911,4 +1108,272 @@ a {
   bottom: -26.5%;
 }
 
-/**************** SIMPLE STAYLE END *************//*# sourceMappingURL=main.css.map */
+/**************** SIMPLE-MOBILE STAYLE START *************/
+@media (max-width: 984px) {
+  .simple-section__wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+  .simple-section__pic {
+    display: none;
+  }
+}
+/**************** SIMPLE-MOBILE STAYLE END *************/
+/**************** SIMPLE STAYLE END *************/
+/**************** QUESTION STAYLE START *************/
+.question-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 71px;
+  background-color: var(--footer-text-color);
+}
+
+.container-question {
+  width: 100%;
+  max-width: 667px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.question-section__title {
+  width: 100%;
+  max-width: 522px;
+  margin: 0;
+  padding-bottom: 40px;
+  padding-left: 55px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: var(--main-subtitle-color);
+}
+
+.question-section__form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-section__number {
+  width: 100%;
+  max-width: 303px;
+  height: 74px;
+  margin: 0;
+  margin-bottom: 37px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background: #fff;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px;
+}
+
+.question-section__question {
+  width: 100%;
+  max-width: 533px;
+  height: 74px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background: #fff;
+  border: 1px solid #FFA3A3;
+  border-radius: 5px;
+}
+
+.question-section__btn {
+  position: absolute;
+  right: 0%;
+  bottom: -0.4%;
+  padding: 26px 46px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  border: none;
+  background-color: #D64374;
+  border-radius: 5px;
+}
+
+.question-section__title::after {
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  left: 68.3%;
+  top: 60.3%;
+  background-image: url("../../imags/icons/Polygon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  z-index: 9999;
+}
+
+/**************** QUESTION-MOBILE STAYLE START *************/
+@media (max-width: 1490px) {
+  .question-section__title::after {
+    display: none;
+  }
+}
+@media (max-width: 1490px) {
+  .question-section__title {
+    font-size: 36px;
+  }
+}
+/**************** QUESTION-MOBILE STAYLE END *************/
+/**************** QUESTION STAYLE END *************/
+/**************** FOOTER STAYLE START *************/
+.site-footer {
+  position: relative;
+  padding: 70px 0 114px 0;
+  background-color: #0A0808;
+}
+
+.site-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  width: 79px;
+  height: 79px;
+}
+
+.site-footer__start {
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer__text {
+  display: inline-block;
+  width: 207px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: var(--footer-text-color);
+  opacity: 0.7;
+}
+
+.site-footer__flow {
+  width: 50px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--footer-text-color);
+}
+
+.site-footer__start--img {
+  padding-right: 12px;
+}
+
+.row {
+  align-items: center;
+  flex-direction: row;
+}
+
+.site-footer__list {
+  padding-top: 40px;
+}
+
+.one {
+  padding-top: 50px;
+}
+
+.site-footer__item {
+  margin-bottom: 10px;
+}
+
+.site-footer__item--link {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--footer-text-color);
+  opacity: 0.7;
+}
+
+.site-footer__end {
+  padding-top: 50px;
+}
+
+.site-footer__end--text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--footer-text-color);
+}
+
+.site-footer__end--link {
+  margin-right: 10px;
+}
+
+.footer-form {
+  width: 380px;
+  padding-bottom: 18px;
+}
+
+.enter-your__input {
+  width: 100%;
+  max-width: 393px;
+  height: 55px;
+  padding-left: 32px;
+  padding-right: 171px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background-color: #0A0808;
+  border: 2px solid #D64374;
+  border-radius: 5px;
+}
+
+.site-footer .question-section__form {
+  position: relative;
+}
+
+.send-submit {
+  position: absolute;
+  right: 2.5%;
+  bottom: 27%;
+  padding: 16px 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--footer-text-color);
+  border: none;
+  background-color: #D23166;
+  border-radius: 5px;
+}
+
+/**************** FOOTER-MOBILE STAYLE START *************/
+@media (max-width: 898px) {
+  .site-footer__list {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .site-footer {
+    text-align: center;
+  }
+  .site-footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-footer__flow {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 396px) {
+  .enter-your__input {
+    max-width: 363px;
+    margin-left: 10px;
+    padding-right: 141px;
+  }
+  .send-submit {
+    position: absolute;
+    right: 4.5%;
+    bottom: 26%;
+  }
+}
+/**************** FOOTER-MOBILE STAYLE END *************/
+/**************** FOOTER STAYLE END *************//*# sourceMappingURL=main.css.map */
